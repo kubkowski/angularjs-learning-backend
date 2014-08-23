@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'active_model_serializers'
 
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -49,6 +50,8 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'selenium-webdriver'
+	gem 'factory_girl_rails'
+	gem 'database_cleaner'
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
 end
