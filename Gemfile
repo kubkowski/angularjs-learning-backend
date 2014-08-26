@@ -27,6 +27,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'active_model_serializers'
+gem 'devise'
 
 
 group :doc do
